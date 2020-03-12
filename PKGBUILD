@@ -1,6 +1,6 @@
 
 # Maintainer: 
-pkgname="ros-melodic-franka-msg"
+pkgname="ros-melodic-franka-msgs"
 pkgver="0.6.0"
 pkgrel=1
 pkgdesc="franka_msgs provides messages specific to Franka Emika research robots"
@@ -9,15 +9,13 @@ url="http://wiki.ros.org/franka_msgs"
 license=('Apache 2.0')
 
 makedepends=(
-
 'ros-melodic-message-generation'
-
+'cmake'
 )
 
 depends=(
-
+'ros-melodic-std-msgs'
 'ros-melodic-message-runtime'
-
 )
 
 provides=($pkgname)
