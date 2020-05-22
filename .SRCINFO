@@ -1,7 +1,7 @@
 pkgbase = ros-melodic-franka-msgs
 	pkgdesc = franka_msgs provides messages specific to Franka Emika research robots
 	pkgver = 0.6.0
-	pkgrel = 1
+	pkgrel = 2
 	url = http://wiki.ros.org/franka_msgs
 	arch = i686
 	arch = x86_64

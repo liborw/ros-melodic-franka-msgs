@@ -1,6 +1,6 @@
 pkgname="ros-melodic-franka-msgs"
 pkgver="0.6.0"
-pkgrel=1
+pkgrel=2
 pkgdesc="franka_msgs provides messages specific to Franka Emika research robots"
 arch=('i686' 'x86_64' 'aarch64' 'armv7h' 'armv6h')
 url="http://wiki.ros.org/franka_msgs"
